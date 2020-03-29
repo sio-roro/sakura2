@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Sacramento');
+
+*{
+  margin:0;
+  padding:0;
+}
+li {
+  list-style: none;
+}
+
+header{
+  width:100%;
+  background-color: #ee817b;
+  height: 50px;
+  position: fixed;
+}
+.header-logo{
+  float: left;
+  color:#fcecea;
+}
+.header-list{
+  float: right;
+}
+.header-list li{
+  float: right;
+  padding-left:15px;
+  padding-right:15px;
+  font-size: 30px;
+  color:#fcecea;
+  line-height: 50px;
+  font-family: 'Sacramento', cursive;
+}
+.header-list li:hover {
+  background-color: white;
+  color:#ee817b;
+  opacity: 0.8;
+  transition: all 1s;
+}
+
+/*top-----------------------------------------*/
+.top{
+  width:100%;
+  height:400px;
+  background-color: #fcecea;
+  text-align: center;
+}
+.top-text{
+  padding-top: 150px;
+}
+.top-logo{
+  
+  color:#ee817b;
+  font-size: 60px;
+}
+.top-logo span{
+  color:#00ff00;
+}
+.top p{
+padding-top:10px;
+color:#f6afaa;
+}
+/*about-----------------------------------------*/
+.about{
+  width:100%;
+  height:400px;
+  background-color: #928484;
+  text-align: center;
+  color:white;
+}
+
+.about h1{
+  color:#ee817b;
+  padding-top: 30px;
+  padding-bottom: 20px;
+   font-size: 40px;
+   
+}
+
+.about-contents{
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+.about-content{
+  margin-top: 15px ;
+  margin-bottom: 15px;
+  margin-left: 20px;
+  width:30%;
+  display: inline-block;
+  
+
+
+}
+.about-content h3{
+  font-size: 28px;
+}
+.about-content i{
+  float: left;
+  font-size: 50px;
+  
+}
+.content-text{
+  float: left;
+}
+/*foum-area---------------------------------*/
+.form-area{
+  background-color: #fcecea;
+  height:400px;
+  width:100%;
+  text-align: center;
+}
+
+.form-area h1{
+  color:#ee817b;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+input{
+  height: 120px;
+  width:40%;
+  border-radius: 10px;
+  
+  font-size: 15px;
+}
+
+
+
